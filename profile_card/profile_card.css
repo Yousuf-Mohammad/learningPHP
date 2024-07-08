@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body,html{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#cardContainer{
+    width: 30%;
+    height: 90%;
+    background-image: url(./yousuf.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #0E1319;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px rgba(92, 91, 91, 0.651);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+
+}
+#infoContainer{
+    padding: 20px;
+    background-image: url("./download.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #0E1319;
+    border-radius: 20px;
+    color: whitesmoke;
+    width: 90%;
+    height: 100%;
+    border: 2px solid whitesmoke;
+    box-shadow: 5px 5px 10px rgba(92, 91, 91, 0.651);
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+#infoContainer:hover{
+    top: 50%;
+    transition: 0.5s;
+
+}
+#name{
+    margin-top: 80px;
+    text-align: center;
+    width: 480px;
+    background-color: rgba(7, 7, 7, 0.651);
+    border-radius: 30px;
+    border: 2px solid whitesmoke;
+    box-shadow: 10px 10px 10px black;
+}
+#name h1{
+    font-size: 45px;
+    font-family: Exo;
+    font-weight: 800;
+    text-decoration: double underline;
+    background-image: url("https://images.pond5.com/space-background-spinning-camera-loopable-000721107_prevstill.jpeg");
+            background-repeat: no-repeat;
+            background-position: bottom;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 1px whitesmoke;
+}
+#aboutMe{
+    padding: 5px;
+    color: whitesmoke;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 17px;
+
+    
+    text-align: justify;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+#aboutMe h4{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    font-weight: 800;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: -5px;
+    text-decoration: underline;
+}
+
+#iconText{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+#arrowUp{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Exo;
+    font-weight: 800;
+    box-shadow: 5px 8px 15px black;
+}
+
+
+
+
+
+/* Tech Stack Section */
+.tech{
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    margin-top: 10px;
+    text-justify: auto;
+    
+}
+#techStack{
+    position: absolute;
+    top: 47%;
+    left: 60%;
+    transform: translate(-0%,-50%);
+    background-color: rgba(7, 7, 7, 0.651);
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.116);
+    height: 200px;
+    width: 180px;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: Exo;
+
+}
+#techStack h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* Job & Links */
+
+#job{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-0%,-50%);
+    background-color: rgba(7, 7, 7, 0.651);
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    box-shadow: 10px 10px 10px black;
+    height: 150px;
+    width: 180px;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: Exo;
+    font-size: 18px;
+}
+#social{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+#social a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* contact */
+
+#contactInfo{
+    position: absolute;
+    top: 80%;
+    left: 7%;
+    transform: translate(0%,0%);
+    background-color: rgba(7, 7, 7, 0.651);
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    box-shadow: 10px 10px 10px black;
+    height: 100px;
+    width: 450px;
+    padding: 5px;
+    color: whitesmoke;
+    font-family: Exo;
+    font-size: 18px;
+}
+#iconText{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+    
+}
+
+#iconText a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
